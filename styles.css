@@ -1171,19 +1171,20 @@ section {
     display: flex;
   }
   .nav-menu {
+    display: none;
     position: fixed;
-    left: -100%;
     top: 70px;
+    left: 0;
     flex-direction: column;
     background-color: rgba(44, 85, 48, 0.98);
     width: 100%;
     text-align: center;
-    transition: none;
     padding: 2rem 0;
+    z-index: 1001;
   }
 
   .nav-menu.active {
-    left: 0;
+    display: block;
   }
 
   .nav-toggle {
