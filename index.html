@@ -387,44 +387,11 @@
                 <li>Church Grounds Aesthetics</li>
               </ul>
             </div>
-          </div>
-         
+          </div>  
 
         </div>
       </div>
     </section>
-
-   <!-- CFAG Board of Leaders -->
-    <section class="leaders" id="leaders">
-      <div class="container leaders-container" style="display: flex; flex-direction: column; align-items: center;">
-        <div class="section-header" style="text-align: center; width: 100%;">
-          <h2 class="section-title" style="margin-left: auto; margin-right: auto;">Church Leaders</h2>
-        </div>
-        <div class="leaders-list-wrapper">
-          <ul class="leaders-list">
-            <li><span class="leader-name">Dan Davy P. Azarcon</span> <span class="leader-sep">-</span> <span class="leader-role">Lead Pastor/Presiding Officer</span></li>
-            <li><span class="leader-name">Suzzete P. Azarcon</span> <span class="leader-sep">-</span> <span class="leader-role">Church Coordinator/ Music Ministry Head</span></li>
-            <li><span class="leader-name">Almira Lapiña</span> <span class="leader-sep">-</span> <span class="leader-role">Finance Banker</span></li>
-            <li><span class="leader-name">Annabel Infanso</span> <span class="leader-sep">-</span> <span class="leader-role">Finance Treasurer</span></li>
-            <li><span class="leader-name">Esmeralda Lee</span> <span class="leader-sep">-</span> <span class="leader-role">Finance Member</span></li>
-            <li><span class="leader-name">Chantilly Sasutil</span> <span class="leader-sep">-</span> <span class="leader-role">Finance Member</span></li>
-            <li><span class="leader-name">Rosarrio B. Sarucam</span> <span class="leader-sep">-</span> <span class="leader-role">Beautification Head/ Finance</span></li>
-            <li><span class="leader-name">Melonie A. Bias</span> <span class="leader-sep">-</span> <span class="leader-role">Church Secretary/ Women's Tri-Leaders Head</span></li>
-            <li><span class="leader-name">Jennifer J. Singson</span> <span class="leader-sep">-</span> <span class="leader-role">Head Usher/ Women's Tri-Leaders</span></li>
-            <li><span class="leader-name">Lenlyn F. Bustillo</span> <span class="leader-sep">-</span> <span class="leader-role">Women's Tri-Leaders Member</span></li>
-            <li><span class="leader-name">Jubelin Fernandez</span> <span class="leader-sep">-</span> <span class="leader-role">Children's Ministry Head</span></li>
-            <li><span class="leader-name">Colyn Fernandez</span> <span class="leader-sep">-</span> <span class="leader-role">Youth Tri-Leaders Head</span></li>
-            <li><span class="leader-name">Dominic Rama</span> <span class="leader-sep">-</span> <span class="leader-role">Youth Tri-Leaders Member</span></li>
-            <li><span class="leader-name">Lyka F. Valenzuela</span> <span class="leader-sep">-</span> <span class="leader-role">Youth Tri-Leaders Member</span></li>
-            <li><span class="leader-name">Gerald Bias</span> <span class="leader-sep">-</span> <span class="leader-role">Men's Tri-Leaders Head</span></li>
-            <li><span class="leader-name">Kim Singson</span> <span class="leader-sep">-</span> <span class="leader-role">Mobilization Head/ Men's Tri-Leaders Member</span></li>
-            <li><span class="leader-name">Ariel Larrobis</span> <span class="leader-sep">-</span> <span class="leader-role">Men's Tri-Leaders Member</span></li>
-            <li><span class="leader-name">Charlie Caldosa</span> <span class="leader-sep">-</span> <span class="leader-role">Socia Media Head</span></li>
-            <li><span class="leader-name">Charivic Quicho</span> <span class="leader-sep">-</span> <span class="leader-role">Follow-Up Ministry Head</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>   
 
     <!-- Statement of Faith Section -->
     <section class="statement" id="statement">
@@ -624,12 +591,13 @@
                 <h4>Location</h4>
                 <p>
                   Camagayan North, Perrelos<br />Carcar, Philippines<br />
-                  <span style="display:block; margin:0.5em 0 0.2em 0; font-size:0.98em; color:#444;">
-                    SEC NO.: 2023050098665<br /> TIN NO.: 631-130-029-00000
-                  </span>
                   <a href="https://maps.app.goo.gl/BvM5TcsgrB2VHaQW8" target="_blank" rel="noopener">
                     <i class="fas fa-map-marker-alt"></i> View on Google Maps
                   </a>
+                </p>
+                <h4>Mobile</h4>
+                <p>
+                  <i class="fas fa-phone"></i> 09945936150
                 </p>
               </div>
             </div>
@@ -655,9 +623,8 @@
                 <p>
                   Connect with us on Facebook<br />
                   <a href="https://facebook.com/100835791566396" target="_blank"
-                  >Visit our page</a>
-                  <br>
-                  <span style="display:block; margin-top:0.5em;"><strong>Mobile:</strong> <i class="fas fa-phone"></i> 09945936150</span>
+                    >Visit our page</a
+                  >
                 </p>
               </div>
             </div>
@@ -826,6 +793,9 @@
               var href = link.getAttribute('href');
               if (isMobile() && navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
+                  }
+                }
+                return;
               }
               // Desktop or menu not open: default smooth scroll
               if (href && href.startsWith('#')) {
