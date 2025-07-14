@@ -647,32 +647,31 @@ section {
 
 
 .statement-content {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   background: none;
-  font-family: var(--font-secondary, 'Open Sans', Arial, sans-serif);
-  font-size: 1.03em;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .statement-content ol,
 .statement-content ul {
-  color: var(--text-secondary);
-  font-family: var(--font-secondary, 'Open Sans', Arial, sans-serif);
-  font-size: 1.03em;
-  line-height: 1.6;
+  color: var(--text-primary);
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .statement-content li {
-  color: var(--text-secondary);
-  font-family: var(--font-secondary, 'Open Sans', Arial, sans-serif);
-  font-size: 1.03em;
-  line-height: 1.6;
+  color: var(--text-primary);
+  font-size: 1.05rem;
+  line-height: 1.7;
   margin-bottom: 0.5em;
 }
+
 
 .statement-content strong {
   color: var(--primary-color);
 }
+
 
 .statement-content em {
   color: var(--secondary-color);
